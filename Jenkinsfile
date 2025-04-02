@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/howar181'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/miamioh-howar181/225-lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('howar181-test-credentials')                                                         //<------change this
+        KUBECONFIG = credentials('howar181-225')                                                         //<------change this
     }
 
     stages {
